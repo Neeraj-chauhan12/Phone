@@ -89,11 +89,144 @@ export const products = [
     label: null,
     tone: 'mint',
   },
+  {
+    id: 9,
+    name: 'PrivacyGuard Glass',
+    description: 'Anti-spy tempered glass · iPhone 15',
+    price: 22,
+    category: 'Glass & displays',
+    image:
+      'https://images.unsplash.com/photo-1605236453806-6ff36851218e?auto=format&fit=crop&w=900&q=85',
+    label: 'PRIVACY',
+    tone: 'blue',
+  },
+  {
+    id: 10,
+    name: 'Camera Lens Shield',
+    description: 'Scratch-resistant lens glass · 2 pack',
+    price: 12,
+    category: 'Glass & displays',
+    image:
+      'https://images.unsplash.com/photo-1512499617640-c74ae3a79d37?auto=format&fit=crop&w=900&q=85',
+    label: null,
+    tone: 'lavender',
+  },
+  {
+    id: 11,
+    name: 'Display Care Kit',
+    description: 'Screen protector · cleaning kit included',
+    price: 16,
+    category: 'Glass & displays',
+    image:
+      'https://images.unsplash.com/photo-1580910051074-3eb694886505?auto=format&fit=crop&w=900&q=85',
+    label: 'COMPLETE KIT',
+    tone: 'mint',
+  },
+  {
+    id: 12,
+    name: 'Soft-Touch Lightning Cable',
+    description: '1.5m · reinforced for daily use',
+    price: 11,
+    category: 'Cables',
+    image:
+      'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=900&q=85',
+    label: null,
+    tone: 'peach',
+  },
+  {
+    id: 13,
+    name: '3-in-1 Travel Cable',
+    description: 'USB-C, Lightning & Micro USB · 1m',
+    price: 19,
+    category: 'Cables',
+    image:
+      'https://images.unsplash.com/photo-1615526675159-e248c3021d3f?auto=format&fit=crop&w=900&q=85',
+    label: 'TRAVEL PICK',
+    tone: 'blue',
+  },
+  {
+    id: 14,
+    name: 'Short USB-C Cable',
+    description: '30cm · tidy charging on the go',
+    price: 8,
+    category: 'Cables',
+    image:
+      'https://images.unsplash.com/photo-1583863788434-e58a36330cf0?auto=format&fit=crop&w=900&q=85',
+    label: null,
+    tone: 'sand',
+  },
+  {
+    id: 15,
+    name: 'Everyday Wired Earbuds',
+    description: 'USB-C audio · in-line microphone',
+    price: 24,
+    category: 'Audio',
+    image:
+      'https://images.unsplash.com/photo-1590658268037-6bf12165a8df?auto=format&fit=crop&w=900&q=85',
+    label: 'NEW',
+    tone: 'mint',
+  },
+  {
+    id: 16,
+    name: 'CloudComfort Headphones',
+    description: 'Wireless over-ear · fold-flat design',
+    price: 89,
+    oldPrice: 109,
+    category: 'Audio',
+    image:
+      'https://images.unsplash.com/photo-1546435770-a3e426bf472b?auto=format&fit=crop&w=900&q=85',
+    label: '−18%',
+    tone: 'peach',
+  },
+  {
+    id: 17,
+    name: 'Pocket Bluetooth Speaker',
+    description: 'Compact sound · splash resistant',
+    price: 39,
+    category: 'Audio',
+    image:
+      'https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?auto=format&fit=crop&w=900&q=85',
+    label: null,
+    tone: 'blue',
+  },
+  {
+    id: 18,
+    name: 'Mini 30W Fast Charger',
+    description: 'USB-C Power Delivery · travel size',
+    price: 27,
+    category: 'Charging',
+    image:
+      'https://images.unsplash.com/photo-1591290619762-c5887f27e29f?auto=format&fit=crop&w=900&q=85',
+    label: 'FAST CHARGE',
+    tone: 'lavender',
+  },
+  {
+    id: 19,
+    name: 'Magnetic Wireless Pad',
+    description: '15W wireless charging · USB-C input',
+    price: 36,
+    category: 'Charging',
+    image:
+      'https://images.unsplash.com/photo-1609592424831-5a9b2d72d206?auto=format&fit=crop&w=900&q=85',
+    label: 'POPULAR',
+    tone: 'mint',
+  },
+  {
+    id: 20,
+    name: 'Roadtrip Car Charger',
+    description: 'Dual USB-C ports · 40W total output',
+    price: 25,
+    category: 'Charging',
+    image:
+      'https://images.unsplash.com/photo-1583863788434-e58a36330cf0?auto=format&fit=crop&w=900&q=85',
+    label: null,
+    tone: 'sand',
+  },
 ]
 
 export const categories = [
-  { name: 'Glass & displays', note: 'Keep it crystal clear', icon: '◈', count: '12 items' },
-  { name: 'Cables', note: 'Stay nicely connected', icon: '⌁', count: '08 items' },
-  { name: 'Audio', note: 'Find your own frequency', icon: '♫', count: '10 items' },
-  { name: 'Charging', note: 'A little more power', icon: 'ϟ', count: '06 items' },
+  { name: 'Glass & displays', note: 'Keep it crystal clear', icon: '◈', count: '05 items' },
+  { name: 'Cables', note: 'Stay nicely connected', icon: '⌁', count: '05 items' },
+  { name: 'Audio', note: 'Find your own frequency', icon: '♫', count: '05 items' },
+  { name: 'Charging', note: 'A little more power', icon: 'ϟ', count: '05 items' },
 ]
